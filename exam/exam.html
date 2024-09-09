@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzify</title>
+    <link rel="stylesheet" href="./exam.css">
+    <link rel="icon" href="../Images/1.png">
+    <script src="https://kit.fontawesome.com/9653068605.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="topBar">
+        <div class="user"></div>
+        <div id="timer"><span id="time">05:00</span></div>
+        <p id="bm"><i class="fa-solid fa-bookmark"></i></p>
+        <div id="flaggedQuestions"></div>
+    </div>
+    <div class="exam">
+        <div id="qCard">
+            <p class="question">1. What is 2+2?</p>
+            <div id="options">
+                <p class="option">1</p>
+                <p class="option">2</p>
+                <p class="option">3</p>
+                <p class="option">4</p>
+            </div>
+            <div id="buttons">
+                <button class="btn backActive" id="backBtn"><i class="fa-solid fa-angle-left"></i> Back</button>
+                <button id="bookmarkBtn"><i class="fa-regular fa-bookmark"></i></button>
+                <button class="btn nextActive" id="nextBtn">Next <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="./exam.js"></script>
+</body>
+
+</html>
